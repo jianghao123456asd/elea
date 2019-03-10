@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22b7edfc-3a1d-4ca9-9f7d-141e1c939c9a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ActivityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ActivityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Models/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_21_072758_create_shop_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_21_082956_create_shops_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_21_084143_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_22_031640_create_admins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_25_022038_create_activities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/activity/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/activity/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/activity/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/activity/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/login/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/login/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/status.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/resources/views/users/password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.eleb.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.eleb.com/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Models/Shop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Models/ShopCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/captcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/assets/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/assets/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/login/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/user/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/menucategorieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/menucategorieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/activity/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/activity/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/login/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/login/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/menu1/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/resources/views/user/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.eleb.com/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.eleb.com/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/shop.eleb.com/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrdermanController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/OrdermanController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1559" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/EventController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event_memberController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Event_memberController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="5" column="28" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/AdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ShopCategoryController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopCategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/EventController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www.eleb.com/app/Http/Controllers/ApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="291" column="31" selection-start-line="291" selection-start-column="31" selection-end-line="291" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>providers</find>
+      <find>time</find>
+      <find>red</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/menucategorieController.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/MemberController.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_02_28_095145_create_members_table.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/MemberController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Menu.php" />
+        <option value="$PROJECT_DIR$/blog/config/auth.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Member.php" />
+        <option value="$PROJECT_DIR$/blog/public/loginCheck.php" />
+        <option value="$PROJECT_DIR$/blog/public/view/api.js" />
+        <option value="$PROJECT_DIR$/blog/config/database.php" />
+        <option value="$PROJECT_DIR$/blog/routes/web.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/database/migrations/2019_03_01_023303_create_addresses_table.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/database/migrations/2019_02_24_023145_add_innodb_to_articles_table.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/database/migrations/2019_03_01_031526_create_addresses_table.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/app/Models/carts.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/public/cart.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/database/migrations/2019_03_03_032941_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/database/migrations/2019_03_03_052423_create_order_details_table.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/public/order.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/public/view/api.js" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/resources/views/youjian/yj.blade.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/www.eleb.com/.env" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopController.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/navs/create.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/navs/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/NavsController.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/shop/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_03_08_114414_create_events_table.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Models/Navs.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/login/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/layoutf/nav.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Event_memberController.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/events/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Models/Member.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Models/Event.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/resources/views/events/show.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Models/Event_member.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/routes/web.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/app/Models/event_prize.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/resources/views/events/show.blade.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/resources/views/events/index.blade.php" />
+        <option value="$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/EventController.php" />
+        <option value="$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/EventController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/admin.eleb.com/package.json" />
+      <path value="$PROJECT_DIR$/fenceng/borst/package.json" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/package.json" />
+      <path value="$PROJECT_DIR$/www.eleb.com/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/composer" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/mews/captcha" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/shop.eleb.com/vendor/psr/http-message" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="width" value="1577" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="shop.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="www.eleb.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="www.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="www.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="www.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eleb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eleb" type="462c0819:PsiDirectoryNode" />
+              <item name="www.eleb.com" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\eleb\blog\app\Models" />
+      <recent name="D:\phpStudy\WWW\eleb\admin.eleb.com\app\Models" />
+      <recent name="D:\phpStudy\WWW\eleb\shop.eleb.com\app\Models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22b7edfc-3a1d-4ca9-9f7d-141e1c939c9a" name="Default" comment="" />
+      <created>1550804970468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550804970468</updated>
+      <workItem from="1550804971607" duration="5284000" />
+      <workItem from="1550815421680" duration="19797000" />
+      <workItem from="1550896243841" duration="8532000" />
+      <workItem from="1550904818830" duration="13284000" />
+      <workItem from="1550925845912" duration="20713000" />
+      <workItem from="1550978553270" duration="43000" />
+      <workItem from="1550992974094" duration="224000" />
+      <workItem from="1551099924981" duration="6014000" />
+      <workItem from="1551107610968" duration="49000" />
+      <workItem from="1551111048831" duration="1286000" />
+      <workItem from="1551113151611" duration="29363000" />
+      <workItem from="1551237741754" duration="1688000" />
+      <workItem from="1551270758469" duration="20050000" />
+      <workItem from="1551333387354" duration="10576000" />
+      <workItem from="1551349246001" duration="14110000" />
+      <workItem from="1551407679674" duration="373000" />
+      <workItem from="1551408068403" duration="3826000" />
+      <workItem from="1551427062131" duration="9730000" />
+      <workItem from="1551515177463" duration="826000" />
+      <workItem from="1551531402536" duration="2902000" />
+      <workItem from="1551535137674" duration="11307000" />
+      <workItem from="1551584336163" duration="40464000" />
+      <workItem from="1551660878551" duration="5221000" />
+      <workItem from="1551867090134" duration="152000" />
+      <workItem from="1551973212259" duration="16048000" />
+      <workItem from="1552026287586" duration="43000" />
+      <workItem from="1552030122502" duration="4198000" />
+      <workItem from="1552109976429" duration="225000" />
+      <workItem from="1552128756235" duration="2126000" />
+      <workItem from="1552139073662" duration="2332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250786000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24360341" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.15068494" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32982087" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/menucategorieController.php</url>
+          <line>53</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/app/Models/carts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/public/address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/public/addOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/public/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/public/view/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/public/orderList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/shop/youjian.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/resources/views/youjian/yj.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" selection-start-line="24" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/shop/status.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/navs/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/NavsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/shop/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="28" selection-start-line="28" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/categorie/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/navs/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/database/migrations/2019_03_08_114414_create_events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Navs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/layoutf/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/resources/views/menu/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Event_member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/menucategorieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/events/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="85" selection-start-line="1" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/resources/views/events/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="112" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Models/Event_prize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Models/event_prize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/resources/views/events/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/resources/views/activity/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3384">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/resources/views/events/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/OrdermanController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1559" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Event_prizeController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.eleb.com/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="291" column="31" selection-start-line="291" selection-start-column="31" selection-end-line="291" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Event_memberController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="5" column="28" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/ShopController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.eleb.com/app/Http/Controllers/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.eleb.com/app/Http/Controllers/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
