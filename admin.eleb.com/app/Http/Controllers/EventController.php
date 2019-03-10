@@ -47,7 +47,7 @@ class EventController extends Controller
         $user = [];
         $ids = [];
         $et=Event::find($id);
-        $time=date();
+
 
 
         if (count($eps)==0){
